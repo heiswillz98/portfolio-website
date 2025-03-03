@@ -1,10 +1,7 @@
-"use client";
-
 import React from "react";
-import Lottie from "lottie-react";
+import dynamic from "next/dynamic";
 
-// import React from "react";
-// import Lottie from "react-lottie";
+const Lottie = dynamic(() => import("lottie-react"), { ssr: false });
 
 type Props = {
   animationPath: string;
