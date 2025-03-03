@@ -10,20 +10,21 @@ const GithubProfileCard = ({ avatar_url, bio, location }: GithubUserType) => {
         <div className="p-2">
           <Row className="">
             <Col className="order-lg-2" lg="4">
-              <img
+              {/* <img
                 src={avatar_url}
                 style={{ width: "200px" }}
                 alt=""
                 className="rounded-circle img-center img-fluid shadow shadow-lg--hover mb-4"
-              />
+              /> */}
             </Col>
             <Col lg="8" className="order-lg-1">
               <h2 className="text-white">Reach Out to me!</h2>
               <p className="lead text-white mt-3">DISCUSS A PROJECT OR JUST WANT TO SAY HI? MY INBOX IS OPEN FOR ALL</p>
-              <p className="text-white mt-3">{bio}</p>
+              <p className="text-white mt-3">DevOps| Full Stack | Javascript | Python| CI/CD</p>
               <div className="my-3 icon-shape bg-gradient-white shadow rounded text-info">
                 <i className="ni ni-pin-3 text-info mr-2" />
-                {location}
+                {/* {location} */}
+                Lagos, Nigeria
               </div>
               <SocialLinks />
             </Col>

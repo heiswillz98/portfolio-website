@@ -12,52 +12,136 @@ import {
 } from "./types/sections";
 
 export const greetings: GreetingsType = {
-  name: "Hanzla Tauqeer",
-  title: "Hi all, I'm Hanzla",
+  name: "Adebola Williams",
+  title: "Hi, I'm Williams",
   description:
-    "I'm a passionate Full Stack web developer with experience developing Full Stack web applications with Python, Django, React.js, and Cloud Technologies. I am strongly interested in learning new technologies and implementing them in my projects. I'm a self-motivated and hardworking individual who is always ready to learn new things and work in a team.",
+    "I am a self-motivated and enthusiastic Software Developer and DevOps Engineer dedicated to building, optimizing, and automating user-focused applications and infrastructure. With a clear understanding of modern technologies, I am passionate about performance metrics, scalability, and continuously improving past work. I am eager to contribute to team success in a dynamic and growing company through hard work, attention to detail, and excellent problem-solving skills.",
   resumeLink: "#",
 };
 
 export const openSource = {
-  githubUserName: "1hanzla100",
+  githubUserName: "heiswillz98",
 };
 
 export const contact = {};
 
 export const socialLinks: SocialLinksType = {
-  email: "mailto:hanzla.tauqeer123@gmail.com",
-  linkedin: "https://www.linkedin.com/in/1hanzla100/",
-  github: "https://github.com/1hanzla100",
-  instagram: "https://www.instagram.com/__hanzla100",
+  email: "mailto:williamsadebolah@gmail.com",
+  linkedin: "https://www.linkedin.com/in/williams-adebola-114251239",
+  github: "https://github.com/heiswillz98",
+  instagram: "https://www.instagram.com",
   // facebook: 'https://www.facebook.com/1hanzla100',
-  // twitter: 'https://twitter.com/1hanzla100',
+  twitter: "https://twitter.com/",
 };
 
 export const skillsSection: SkillsSectionType = {
   title: "What I do",
-  subTitle: "CRAZY FULL STACK DEVELOPER WHO WANTS TO EXPLORE EVERY TECH STACK",
+  subTitle: "DevOps Engineer & Software Engineer",
   data: [
     {
-      title: "Full Stack Development",
+      title: "DevOps Engineer",
       lottieAnimationFile: "/lottie/skills/fullstack.json", // Path of Lottie Animation JSON File
       skills: [
-        emoji("⚡ Building responsive Single-Page-Apps (SPA) & PWA in React.js"),
-        emoji("⚡ Building responsive static websites using Next.js"),
-        emoji("⚡ Building RESTful APIs in Django & Django REST Framework"),
+        emoji(
+          "⚡ Automation & Infrastructure as Code (IaC): Skilled in automating deployments, managing cloud infrastructure, and writing IaC using Terraform, Ansible, and Kubernetes for scalable and efficient operations."
+        ),
+        emoji(
+          "⚡ CI/CD & Monitoring: Experienced in designing robust CI/CD pipelines using Jenkins, GitHub Actions, and GitLab CI/CD, ensuring seamless software delivery with real-time monitoring through Prometheus, Grafana, and ELK Stack."
+        ),
+        emoji(
+          "⚡ Cloud & Security Expertise: Proficient in AWS, Azure implementing secure, high-availability architectures with strong knowledge of containerization (Docker, Kubernetes) and security best practices."
+        ),
       ],
       softwareSkills: [
         {
-          skillName: "Python",
-          iconifyTag: "logos:python",
+          skillName: "AWS",
+          iconifyTag: "logos:aws",
         },
         {
-          skillName: "Django",
-          iconifyTag: "vscode-icons:file-type-django",
+          skillName: "Terraform",
+          iconifyTag: "logos:terraform-icon",
         },
+        {
+          skillName: "Kubernetes",
+          iconifyTag: "logos:kubernetes",
+        },
+        {
+          skillName: "GitLab",
+          iconifyTag: "logos:gitlab",
+        },
+        {
+          skillName: "Jenkins",
+          iconifyTag: "logos:jenkins",
+        },
+        {
+          skillName: "Prometheus",
+          iconifyTag: "logos:prometheus",
+        },
+        {
+          skillName: "Grafana",
+          iconifyTag: "logos:grafana",
+        },
+        {
+          skillName: "Ansible",
+          iconifyTag: "logos:ansible",
+        },
+        {
+          skillName: "Linux",
+          iconifyTag: "logos:linux-tux",
+        },
+        {
+          skillName: "NGINX",
+          iconifyTag: "logos:nginx",
+        },
+        {
+          skillName: "Traefik",
+          iconifyTag: "simple-icons:traefikproxy",
+        },
+        {
+          skillName: "Apache",
+          iconifyTag: "logos:apache",
+        },
+        {
+          skillName: "Bash",
+          iconifyTag: "logos:bash-icon",
+        },
+        {
+          skillName: "Heroku",
+          iconifyTag: "logos:heroku-icon",
+        },
+
+        {
+          skillName: "Docker",
+          iconifyTag: "logos:docker-icon",
+        },
+      ],
+    },
+    {
+      title: "Software Engineer",
+      lottieAnimationFile: "/lottie/skills/fullstack.json", // Path of Lottie Animation JSON File
+      skills: [
+        emoji(
+          "⚡ Full-Stack Development & Scalable Architecture: Proficient in building responsive web applications using React, Next.js, Node.js, and TypeScript, with a strong focus on scalable, maintainable, and high-performance architectures."
+        ),
+        emoji(
+          "⚡ Efficient Code & Problem-Solving: Experienced in writing clean, efficient, and well-documented code, leveraging algorithms, data structures, and design patterns to optimize software performance and reliability."
+        ),
+        emoji(
+          "⚡ DevOps & Cloud Integration: Skilled in CI/CD, Docker, Kubernetes, and cloud services like AWS and GCP, ensuring seamless deployment, monitoring, and automation of software development workflows."
+        ),
+      ],
+      softwareSkills: [
         {
           skillName: "JavaScript",
           iconifyTag: "logos:javascript",
+        },
+        {
+          skillName: "Tailwind CSS",
+          iconifyTag: "logos:tailwindcss",
+        },
+        {
+          skillName: "Bootstrap",
+          iconifyTag: "logos:bootstrap",
         },
         {
           skillName: "Reactjs",
@@ -68,20 +152,32 @@ export const skillsSection: SkillsSectionType = {
           iconifyTag: "vscode-icons:file-type-light-next",
         },
         {
-          skillName: "AWS",
-          iconifyTag: "logos:aws",
-        },
-        {
-          skillName: "Heroku",
-          iconifyTag: "logos:heroku-icon",
-        },
-        {
           skillName: "Github",
           iconifyTag: "akar-icons:github-fill",
         },
         {
+          skillName: "Node js",
+          iconifyTag: "logos:nodejs-icon",
+        },
+        {
+          skillName: "Express js",
+          iconifyTag: "logos:express",
+        },
+        {
           skillName: "Docker",
           iconifyTag: "logos:docker-icon",
+        },
+        {
+          skillName: "MongoDB",
+          iconifyTag: "logos:mongodb",
+        },
+        {
+          skillName: "PostgreSQL",
+          iconifyTag: "logos:postgresql",
+        },
+        {
+          skillName: "MySQL",
+          iconifyTag: "logos:mysql",
         },
       ],
     },
@@ -110,67 +206,92 @@ export const educationInfo: EducationType[] = [
     duration: "September 2017 - April 2020",
     desc: "",
     grade: "Grade A",
-    descBullets: [], // Array of Strings
+    descBullets: [],
   },
 ];
 
 export const experience: ExperienceType[] = [
   {
-    role: "Django Developer",
-    company: "Meganos Software",
-    companyLogo: "/img/icons/common/meganos.png",
-    date: "Aug 2022 - Present",
-    desc: "I crafted backends for diverse web apps, APIs, and WebSockets in e-commerce, podcasts, and property management. Managed server upkeep, deployments on Linux, Heroku, and AWS S3. Implemented PyTest for automated unit and integration testing, slashing 4 hours of manual testing each sprint, fortifying a dependable and flawless code foundation.",
+    role: "DevOps & Full Stack Engineer",
+    company: "City Hotel & Spaces",
+    companyLogo: "/img/icons/common/city.png",
+    date: "Jan 2023 - Present",
+    // desc: "I crafted backends for diverse web apps, APIs, and WebSockets in e-commerce, podcasts, and property management. Managed server upkeep, deployments on Linux, Heroku, and AWS S3. Implemented PyTest for automated unit and integration testing, slashing 4 hours of manual testing each sprint, fortifying a dependable and flawless code foundation.",
+    descBullets: [
+      "Automated CI/CD pipelines using GitHub Actions & GitLab CI/CD,reducing deployment time by 60% and eliminating manual intervention.",
+      "Implemented Infrastructure as Code using Terraform, reducing deployment errors by 30% and improving cloud resource provisioning consistency across environments.",
+      "Led the migration of on-premise applications to AWS, ensuring minimal downtime and seamless integration with existing systems.",
+      "Implemented container orchestration with Kubernetes, improving deployment efficiency by 40% and ensuring seamless scaling and service discovery.",
+      "Utilized Next Js, TypeScript, and Tailwind CSS to develop and maintain web applications.",
+      "Monitored and optimized cloud infrastructure, reducing cloud costs by 25%",
+    ],
   },
   {
-    role: "Full Stack Developer",
-    company: "Duseca Software",
-    companyLogo: "/img/icons/common/duseca_software_logo.jpeg",
-    date: "Jan 2022 - Sept 2023",
-    desc: "Crafted robust mobile application backends employing Django, Python, and REST APIs. Leveraged Django REST Framework, PostgreSQL, AWS, Firebase, Stripe, and WebSocket for efficient development. Collaborated across teams to surpass client expectations. Designed intuitive UIs, empowering clients to effortlessly manage their applications with a visually captivating interface.",
-    // descBullets: [
-    // 	"Lorem ipsum dolor sit amet, consdfgectetur adipiscing elit",
-    // 	"Lorem ipsum dolor sit amet, consectetur adipiscing elit",
-    // ],
+    role: "DevOps Engineer",
+    company: "Mettalloids Limited",
+    companyLogo: "/img/icons/common/metalloid.jpeg",
+    date: "Aug 2021 - June 2023",
+    // desc: "Crafted robust mobile application backends employing Django, Python, and REST APIs. Leveraged Django REST Framework, PostgreSQL, AWS, Firebase, Stripe, and WebSocket for efficient development. Collaborated across teams to surpass client expectations. Designed intuitive UIs, empowering clients to effortlessly manage their applications with a visually captivating interface.",
+    descBullets: [
+      "Designed and implemented a GitLab CI/CD pipeline for a Java Spring Boot app, reducing manual deployment time by 80% with Gradle, AWS S3, and Elastic Beanstalk.",
+      "Automated infrastructure provisioning using Terraform and Ansible, cutting deployment errors by 90% ",
+      "Containerized and deployed microservices with Docker and Kubernetes, improving scalability and ensuring seamless orchestration.",
+      "Implemented secure traffic routing with Traefik, enabling reverse proxy, automatic SSL/TLS, and HTTPS enforcement.",
+      "Integrated automated testing and monitoring using JUnit, PMD, Postman Newman, Prometheus, and Grafana, reducing deployment failures by 60% and system downtime by 25%.",
+      "Achieved single-command deployment (terraform apply -auto-approve), streamlining infrastructure setup, monitoring with Spring Boot Actuator, and automated rollback strategies.",
+    ],
   },
   {
-    role: "Full Stack Developer",
-    company: "ZRTechnologies",
-    companyLogo: "/img/icons/common/zrtech.jpeg",
-    date: "Aug 2022 - Jun 2023",
-    desc: "Crafting diverse web applications, I've elevated functionality and user engagement. Spearheaded Visual Portfolio, leveraging AI for captivating presentations from parsed text. Proficiently set up and optimized applications on Linux servers, guaranteeing smooth scalability and top-notch performance for seamless user experiences.",
+    role: "FullStack Engineer",
+    company: "SmartChain Limited ",
+    companyLogo: "/img/icons/common/smartchain.jpeg",
+    date: "Oct 2023 - Jan 2025",
+    descBullets: [
+      "Developed and maintained web applications using React, TypeScript, Node.js, and Tailwind CSS, ensuring optimal performance and scalability.",
+      "Assisted in building and optimizing the admin dashboard load time by 15% through performance optimization.",
+      "Implemented Azure DevOps CI/CD pipelines, reducing deployment time by 40% and automating build, test, and deployment processes to enhance workflow efficiency.",
+      "Facilitated seamless integration between front-end interfaces and server-side applications and databases, collaborating closely with the backend development team to deliver cohesive and efficient web solutions.",
+      "Contributed to improving the website's performance and user experience through code optimization and best practices.",
+    ],
+    // desc: "Crafting diverse web applications, I've elevated functionality and user engagement. Spearheaded Visual Portfolio, leveraging AI for captivating presentations from parsed text. Proficiently set up and optimized applications on Linux servers, guaranteeing smooth scalability and top-notch performance for seamless user experiences.",
   },
   {
-    role: "Backend Developer",
-    company: "Bleed-AI",
-    companyLogo: "/img/icons/common/bleedAI.jpg",
-    date: "Sept 2021 - Oct 2021",
-    desc: "As a Django developer at Bleed AI, I integrated a computer vision AI model to process YouTube URLs on a website. I used Django Channels and Websockets to show real-time processing and implemented threading to run multiple instances of the AI model. I also used jQuery for UI rendering and deployed the website on a Heroku server.",
+    role: "DevOps Engineer (Intern)",
+    company: "Terragon Group",
+    companyLogo: "/img/icons/common/terragon.jpeg",
+    date: "Jan 2021 - April 2021",
+    descBullets: [
+      "Collaborated with a team of software engineers to identify and resolve challenges that hindered the building and deployment of new features, streamlining development processes through extensive research and implementation of best practices.",
+      "Designed, containerized, and deployed microservices to Kubernetes clusters for improved scalability and reliability.",
+      "With this role, I explored, test, share ideas, plus deep knowledge software development and delivery tools like; Versioning control system management tool (Git/GitHub), Cloud platform (Azure), and Containerisation (Docker)",
+      "Gained hands-on experience in software development and delivery tools, including Git/GitHub for version control, Azure for cloud platform management, and Docker for containerization.",
+    ],
+    // desc: "As a Django developer at Bleed AI, I integrated a computer vision AI model to process YouTube URLs on a website. I used Django Channels and Websockets to show real-time processing and implemented threading to run multiple instances of the AI model. I also used jQuery for UI rendering and deployed the website on a Heroku server.",
   },
 ];
 
 export const projects: ProjectType[] = [
   {
-    name: "developer-portfolio",
-    desc: "Software Developer Portfolio Template built with react.js and next.js bootstrap that helps you showcase your work and skills as a software developer.",
-    github: "https://github.com/1hanzla100/developer-portfolio",
-    link: "https://developer-portfolio-1hanzla100.vercel.app/",
+    name: "Automated AWS Deployment with Terraform & Ansible",
+    desc: "This DevOps project automates infrastructure provisioning and deployment using Terraform and Ansible on AWS. It sets up EC2 instances, configures security, installs dependencies, deploys a Dockerized application, and enables SSL/TLS with Traefik—all executed via a single terraform apply command.",
+    github: "https://github.com/heiswillz98/terra-config",
+    // link: "https://github.com/heiswillz98/terra-config",
   },
   {
-    name: "Giebo",
-    desc: "A Podcast Platform where creators can easily publish and sell their podcasts, and users can purchase with Handcash BitcoinSV, the future of fast and secure transactions.",
-    link: "https://gibeo.io/",
+    name: "Microservices Containerization & Automated Deployment",
+    desc: "This project containerizes a microservices-based TODO application using Docker and Docker Compose. It deploys Vue.js, Go, Node.js, Java, and Python services with Redis, configures a Traefik reverse proxy, enables HTTPS, and automates deployment for seamless scalability and security.",
+    github: "https://github.com/heiswillz98/ServiceGrid",
   },
   {
-    name: "O Mejor Oferta",
-    desc: "O Mejor Oferta is a mobile marketplace for buying and selling items nearby, helping users find deals on things they want and make money from items they no longer need.",
-    link: "https://play.google.com/store/apps/details?id=com.duseca.mejor_oferta",
+    name: "CI/CD Pipeline for Java Microservice Deployment",
+    desc: "This project automates the CI/CD pipeline for a Java-based microservice using GitLab CI/CD. It includes build, testing (unit, smoke, and API), deployment to AWS Elastic Beanstalk, and post-deployment verification, ensuring a seamless, reliable, and scalable release process.",
+    github: "https://gitlab.com/heiswillz-projects/cars-api",
   },
-  {
-    name: "Hooligan Culture",
-    desc: "A Ecommerce Platform, where shopping meets the future! With HandCash BitcoinSV integration, you can authenticate and purchase products with ease and confidence.",
-    link: "https://hooliganculture.com/",
-  },
+  // {
+  //   name: "Hooligan Culture",
+  //   desc: "A Ecommerce Platform, where shopping meets the future! With HandCash BitcoinSV integration, you can authenticate and purchase products with ease and confidence.",
+  //   link: "https://hooliganculture.com/",
+  // },
 ];
 
 export const feedbacks: FeedbackType[] = [
@@ -194,20 +315,11 @@ export const feedbacks: FeedbackType[] = [
   },
 ];
 
-// See object prototype on /types/section.ts page
 export const seoData: SEODataType = {
-  title: "Hanzla Tauqeer",
+  title: "Adebola Williams",
   description: greetings.description,
-  author: "Hanzla Tauqeer",
+  author: "Adebola Williams",
   image: "https://avatars.githubusercontent.com/u/59178380?v=4",
   url: "https://developer-portfolio-1hanzla100.vercel.app",
-  keywords: [
-    "Hanzla",
-    "Hanzla Tauqeer",
-    "@1hanzla100",
-    "1hanzla100",
-    "Portfolio",
-    "Hanzla Portfolio ",
-    "Hanzla Tauqeer Portfolio",
-  ],
+  keywords: ["Willz", "Adebola Williams", "Portfolio", "Willz Portfolio ", "Adebola Williams Portfolio"],
 };
