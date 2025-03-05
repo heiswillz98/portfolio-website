@@ -16,7 +16,7 @@ export const greetings: GreetingsType = {
   title: "Hi, I'm Williams",
   description:
     "I am a self-motivated and enthusiastic Software Developer and DevOps Engineer dedicated to building, optimizing, and automating user-focused applications and infrastructure. With a clear understanding of modern technologies, I am passionate about performance metrics, scalability, and continuously improving past work. I am eager to contribute to team success in a dynamic and growing company through hard work, attention to detail, and excellent problem-solving skills.",
-  resumeLink: "#",
+  resumeLink: "/resume",
 };
 
 export const openSource = {
