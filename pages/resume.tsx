@@ -1,9 +1,11 @@
 import React from "react";
 import Head from "next/head";
 import { Button, Container } from "reactstrap";
+import { useRouter } from "next/router";
 
 const ResumePage = () => {
   const resumeUrl = "/resume.pdf"; // Ensure Devops1.pdf is in the /public folder
+  const router = useRouter();
 
   const handleDownload = () => {
     const link = document.createElement("a");
@@ -25,6 +27,9 @@ const ResumePage = () => {
         <div className="mt-4">
           <Button color="primary" onClick={handleDownload}>
             <i className="fa fa-download mr-2"></i> Download Resume
+          </Button>
+          <Button color="secondary" onClick={() => router.back()} className="mr-2">
+            <i className="fa fa-arrow-left mr-2"></i> Go Back
           </Button>
         </div>
       </Container>
