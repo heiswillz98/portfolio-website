@@ -272,26 +272,57 @@ export const experience: ExperienceType[] = [
 
 export const projects: ProjectType[] = [
   {
-    name: "Automated AWS Deployment with Terraform & Ansible",
-    desc: "This DevOps project automates infrastructure provisioning and deployment using Terraform and Ansible on AWS. It sets up EC2 instances, configures security, installs dependencies, deploys a Dockerized application, and enables SSL/TLS with Traefik—all executed via a single terraform apply command.",
-    github: "https://github.com/heiswillz98/terra-config",
+    name: "Multi-Cloud AI Infrastructure",
+    desc: "Designed and implemented a scalable AI-powered microservices architecture using AWS, Google Cloud, and Azure. Leveraged Terraform for infrastructure as code, Amazon EKS for container orchestration, and Lambda for event-driven processing. Integrated BigQuery for real-time analytics and Azure AI Language for sentiment analysis. Ensured seamless CI/CD with GitHub Actions, AWS CodePipeline, and Amazon ECR.",
+    github: "https://github.com/heiswillz98/multi-cloud-ai",
+    image: "/img/icons/common/multicloud.png",
     // link: "https://github.com/heiswillz98/terra-config",
   },
   {
     name: "Microservices Containerization & Automated Deployment",
     desc: "This project containerizes a microservices-based TODO application using Docker and Docker Compose. It deploys Vue.js, Go, Node.js, Java, and Python services with Redis, configures a Traefik reverse proxy, enables HTTPS, and automates deployment for seamless scalability and security.",
     github: "https://github.com/heiswillz98/ServiceGrid",
+    image: "/img/icons/common/micro-service.png",
   },
+  {
+    name: "Automated AWS Deployment with Terraform & Ansible",
+    desc: "This DevOps project automates infrastructure provisioning and deployment using Terraform and Ansible on AWS. It sets up EC2 instances, configures security, installs dependencies, deploys a Dockerized application, and enables SSL/TLS with Traefik—all executed via a single terraform apply command.",
+    github: "https://github.com/heiswillz98/terra-config",
+    image: "/img/icons/common/terra-config.png",
+    // link: "https://github.com/heiswillz98/terra-config",
+  },
+
   {
     name: "CI/CD Pipeline for Java Microservice Deployment",
     desc: "This project automates the CI/CD pipeline for a Java-based microservice using GitLab CI/CD. It includes build, testing (unit, smoke, and API), deployment to AWS Elastic Beanstalk, and post-deployment verification, ensuring a seamless, reliable, and scalable release process.",
-    github: "https://gitlab.com/heiswillz-projects/cars-api",
+    gitlab: "https://gitlab.com/heiswillz-projects/cars-api",
+    image: "/img/icons/common/gitlabci-cd.png",
   },
+  // {
+  //   name: "City Spaces",
+  //   desc: "Cityspaces is a platform for hosting apartments, offering a seamless experience for property owners and renters. It features easy listing management, secure transactions, and a user-friendly interface, ensuring a smooth rental process for all users.",
+  //   image: "/img/icons/common/cityHotel.jpg",
+  // },
   // {
   //   name: "Hooligan Culture",
   //   desc: "A Ecommerce Platform, where shopping meets the future! With HandCash BitcoinSV integration, you can authenticate and purchase products with ease and confidence.",
   //   link: "https://hooliganculture.com/",
   // },
+];
+
+export const otherProjects: ProjectType[] = [
+  {
+    name: "City Spaces",
+    desc: "Cityspaces is a platform for hosting apartments, offering a seamless experience for property owners and renters. It features easy listing management, secure transactions, and a user-friendly interface, ensuring a smooth rental process for all users.",
+    image: "/img/icons/common/cityHotel.jpg",
+    link: "https://cityspacesandbookings.com/",
+  },
+  {
+    name: "City Spaces",
+    desc: "Cityspaces is a platform for hosting apartments, offering a seamless experience for property owners and renters. It features easy listing management, secure transactions, and a user-friendly interface, ensuring a smooth rental process for all users.",
+    image: "/img/icons/common/cityHotel.jpg",
+    link: "https://cityspacesandbookings.com/",
+  },
 ];
 
 export const feedbacks: FeedbackType[] = [
@@ -319,7 +350,7 @@ export const seoData: SEODataType = {
   title: "Adebola Williams",
   description: greetings.description,
   author: "Adebola Williams",
-  image: "https://avatars.githubusercontent.com/u/59178380?v=4",
-  url: "https://developer-portfolio-1hanzla100.vercel.app",
+  // image: "https://avatars.githubusercontent.com/u/59178380?v=4",
+  url: "https://williamsadebola.vercel.app/",
   keywords: ["Willz", "Adebola Williams", "Portfolio", "Willz Portfolio ", "Adebola Williams Portfolio"],
 };

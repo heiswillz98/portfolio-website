@@ -1,3 +1,5 @@
+import { StaticImageData } from "next/image";
+
 export type SEODataType = {
   title: string;
   author?: string;
@@ -77,7 +79,9 @@ export type ProjectType = {
   name: string;
   desc: string;
   github?: string;
+  gitlab?: string;
   link?: string;
+  image?: string;
 };
 
 // * FEEDBACK SECTION

@@ -11,6 +11,7 @@ const GithubProfileCard = dynamic(() => import("../components/GithubProfileCard"
 import { openSource } from "../portfolio";
 import SEO from "../components/SEO";
 import { GithubUserType } from "../types";
+import OtherProjects from "../containers/OtherProjects";
 
 export default function Home({ githubProfileData }: { githubProfileData: any }) {
   return (
@@ -20,6 +21,7 @@ export default function Home({ githubProfileData }: { githubProfileData: any }) 
       <Greetings />
       <Skills />
       <Projects />
+      {/* <OtherProjects /> */}
       {/* <Proficiency />
       <Education /> */}
       <Experience />
@@ -34,12 +36,12 @@ export default function Home({ githubProfileData }: { githubProfileData: any }) 
 //   githubProfileData: PropTypes.object.isRequired,
 // };
 
-export async function getStaticProps() {
-  const githubProfileData: GithubUserType = await fetch(
-    `https://api.github.com/users/${openSource.githubUserName}`
-  ).then(res => res.json());
+// export async function getStaticProps() {
+//   const githubProfileData: GithubUserType = await fetch(
+//     `https://api.github.com/users/${openSource.githubUserName}`
+//   ).then(res => res.json());
 
-  return {
-    props: { githubProfileData },
-  };
-}
+//   return {
+//     props: { githubProfileData },
+//   };
+// }

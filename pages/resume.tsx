@@ -4,13 +4,13 @@ import { Button, Container } from "reactstrap";
 import { useRouter } from "next/router";
 
 const ResumePage = () => {
-  const resumeUrl = "/resume.pdf"; // Ensure Devops1.pdf is in the /public folder
+  const resumeUrl = "/Williams-Adebola-Resume.pdf";
   const router = useRouter();
 
   const handleDownload = () => {
     const link = document.createElement("a");
     link.href = resumeUrl;
-    link.download = "resume.pdf"; // Set download filename
+    link.download = "Williams-Adebola-Resume.pdf";
     document.body.appendChild(link);
     link.click();
     document.body.removeChild(link);
