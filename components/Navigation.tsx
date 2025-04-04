@@ -51,7 +51,7 @@ const Navigation = () => {
                 </Row>
               </div>
               <Nav className="align-items-lg-center ml-lg-auto" navbar>
-                {socialLinks.facebook && (
+                {/* {socialLinks.facebook && (
                   <NavItem>
                     <NavLink
                       rel="noopener"
@@ -64,8 +64,8 @@ const Navigation = () => {
                       <span className="nav-link-inner--text d-lg-none ml-2">Facebook</span>
                     </NavLink>
                   </NavItem>
-                )}
-                {socialLinks.instagram && (
+                )} */}
+                {/* {socialLinks.instagram && (
                   <NavItem>
                     <NavLink
                       rel="noopener"
@@ -78,7 +78,7 @@ const Navigation = () => {
                       <span className="nav-link-inner--text d-lg-none ml-2">Instagram</span>
                     </NavLink>
                   </NavItem>
-                )}
+                )} */}
                 {socialLinks.github && (
                   <NavItem>
                     <NavLink
@@ -107,7 +107,23 @@ const Navigation = () => {
                     </NavLink>
                   </NavItem>
                 )}
-                {socialLinks.twitter && (
+                {socialLinks.medium && (
+                  <NavItem>
+                    <NavLink
+                      rel="noopener"
+                      aria-label="Medium"
+                      className="nav-link-icon"
+                      href={socialLinks.medium}
+                      target="_blank"
+                    >
+                      <i className="fa fa-medium " />
+                      {/* <img src="https://cdn.worldvectorlogo.com/logos/medium-1.svg" alt="Medium Logo" width="30" /> */}
+
+                      <span className="nav-link-inner--text d-lg-none ml-2">Medium</span>
+                    </NavLink>
+                  </NavItem>
+                )}
+                {/* {socialLinks.twitter && (
                   <NavItem>
                     <NavLink
                       rel="noopener"
@@ -120,7 +136,7 @@ const Navigation = () => {
                       <span className="nav-link-inner--text d-lg-none ml-2">Twitter</span>
                     </NavLink>
                   </NavItem>
-                )}
+                )} */}
               </Nav>
             </UncontrolledCollapse>
           </Container>

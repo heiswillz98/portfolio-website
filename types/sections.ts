@@ -82,6 +82,7 @@ export type ProjectType = {
   gitlab?: string;
   link?: string;
   image?: string;
+  medium?: string;
 };
 
 // * FEEDBACK SECTION

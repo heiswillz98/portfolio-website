@@ -3,7 +3,7 @@ import { Card, CardBody, Col, Button } from "reactstrap";
 import Fade from "react-reveal/Fade";
 import { ProjectType } from "../types/sections";
 
-const ProjectsCard = ({ name, desc, github, link, image, gitlab }: ProjectType) => {
+const ProjectsCard = ({ name, desc, github, link, image, gitlab, medium }: ProjectType) => {
   return (
     // <Col>
     // <Card className="shadow-lg--hover shadow mt-4">
@@ -58,6 +58,22 @@ const ProjectsCard = ({ name, desc, github, link, image, gitlab }: ProjectType) 
               >
                 <span className="btn-inner--icon">
                   <i className="fa fa-gitlab" />
+                </span>
+              </Button>
+            ) : null}
+
+            {medium ? (
+              <Button
+                className="btn-icon"
+                // style={{ backgroundColor: "#FC6D26", borderColor: "#FC6D26", color: "white" }}
+                href={medium}
+                color="github"
+                target="_blank"
+                rel="noopener"
+                aria-label="medium"
+              >
+                <span className="btn-inner--icon">
+                  <i className="fa fa-medium " />
                 </span>
               </Button>
             ) : null}

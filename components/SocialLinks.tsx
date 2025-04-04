@@ -47,7 +47,22 @@ const SocialLinks = () => {
           </span>
         </Button>
       )}
-      {socialLinks.instagram && (
+      {socialLinks.medium && (
+        <Button
+          className="btn-icon-only rounded-circle"
+          color="github"
+          href={socialLinks.medium}
+          target="_blank"
+          rel="noopener"
+          aria-label="medium"
+        >
+          <span className="btn-inner--icon">
+            {/* <i className="fab fa-medium-m" /> */}
+            <i className="fa fa-medium " />
+          </span>
+        </Button>
+      )}
+      {/* {socialLinks.instagram && (
         <Button
           className="btn-icon-only rounded-circle ml-1"
           color="instagram"
@@ -88,7 +103,7 @@ const SocialLinks = () => {
             <i className="fa fa-twitter" />
           </span>
         </Button>
-      )}
+      )} */}
     </div>
   );
 };

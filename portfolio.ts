@@ -29,9 +29,9 @@ export const socialLinks: SocialLinksType = {
   email: "mailto:williamsadebolah@gmail.com",
   linkedin: "https://www.linkedin.com/in/williams-adebola-114251239",
   github: "https://github.com/heiswillz98",
-  instagram: "https://www.instagram.com",
-  // facebook: 'https://www.facebook.com/1hanzla100',
-  twitter: "https://twitter.com/",
+  // instagram: "https://www.instagram.com",
+  medium: "https://medium.com/@williamsadebolah",
+  // twitter: "https://twitter.com/",
 };
 
 export const skillsSection: SkillsSectionType = {
@@ -279,11 +279,30 @@ export const projects: ProjectType[] = [
     // link: "https://github.com/heiswillz98/terra-config",
   },
   {
+    name: "Serverless To-Do App with AWS (Chatbot Coming Soon)",
+    desc: "A fully serverless to-do list app built with React and TypeScript, leveraging AWS services like Lambda, API Gateway, DynamoDB, and Amplify. Designed from the ground up with a DevOps-first mindset. I'm currently working on integrating an AI-powered chatbot using Amazon Bedrock to take things even further — stay tuned! For a full step-by-step guide, click the Medium link and dive in.",
+    image: "/img/icons/common/serverless.png",
+    medium: "https://medium.com/@williamsadebolah/9cf9901a221d",
+  },
+  {
+    name: "City Spaces",
+    desc: "Cityspaces is a platform for hosting apartments, offering a seamless experience for property owners and renters. It features easy listing management, secure transactions, and a user-friendly interface, ensuring a smooth rental process for all users.",
+    image: "/img/icons/common/cityHotel.jpg",
+    link: "https://cityspacesandbookings.com/",
+  },
+  {
     name: "Microservices Containerization & Automated Deployment",
     desc: "This project containerizes a microservices-based TODO application using Docker and Docker Compose. It deploys Vue.js, Go, Node.js, Java, and Python services with Redis, configures a Traefik reverse proxy, enables HTTPS, and automates deployment for seamless scalability and security.",
     github: "https://github.com/heiswillz98/ServiceGrid",
     image: "/img/icons/common/micro-service.png",
   },
+  {
+    name: "Biterush",
+    desc: "Biterush is a food delivery platform tailored for university students. It provides affordable meal options and fast delivery, with a user-friendly interface that helps students easily manage their hunger amidst their busy academic lives.",
+    image: "/img/icons/common/biterush.jpg",
+    link: "https://biterush.vercel.app",
+  },
+
   {
     name: "Automated AWS Deployment with Terraform & Ansible",
     desc: "This DevOps project automates infrastructure provisioning and deployment using Terraform and Ansible on AWS. It sets up EC2 instances, configures security, installs dependencies, deploys a Dockerized application, and enables SSL/TLS with Traefik—all executed via a single terraform apply command.",
@@ -351,6 +370,6 @@ export const seoData: SEODataType = {
   description: greetings.description,
   author: "Adebola Williams",
   // image: "https://avatars.githubusercontent.com/u/59178380?v=4",
-  url: "https://williamsadebola.vercel.app/",
+  url: "https://williamsadebolah.vercel.app/",
   keywords: ["Willz", "Adebola Williams", "Portfolio", "Willz Portfolio ", "Adebola Williams Portfolio"],
 };
