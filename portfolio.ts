@@ -15,7 +15,7 @@ export const greetings: GreetingsType = {
   name: "Adebola Williams",
   title: "Hi, I'm Williams",
   description:
-    "I am a self-motivated and enthusiastic Software Developer and DevOps Engineer dedicated to building, optimizing, and automating user-focused applications and infrastructure. With a clear understanding of modern technologies, I am passionate about performance metrics, scalability, and continuously improving past work. I am eager to contribute to team success in a dynamic and growing company through hard work, attention to detail, and excellent problem-solving skills.",
+    "Creative DevOps maestro with a solid software engineering core who turns chaos into code and infrastructure into art with over 4 years of hands-on experience building user-focused applications, automating cloud infrastructure, optimizing deployment pipelines, and keeping applications running like clockwork. Known for bridging development and operations with ease, I bring a sharp eye for code quality, a passion for performance, and a talent for building systems that scale effortlessly. Proven track record of reducing deployment times, boosting reliability, and empowering agile teams to ship with confidence.",
   resumeLink: "/resume",
 };
 
@@ -39,17 +39,17 @@ export const skillsSection: SkillsSectionType = {
   subTitle: "DevOps Engineer & Software Engineer",
   data: [
     {
-      title: "DevOps Engineer",
+      title: "DevOps Arsenal",
       lottieAnimationFile: "/lottie/skills/fullstack.json", // Path of Lottie Animation JSON File
       skills: [
         emoji(
-          "⚡ Automation & Infrastructure as Code (IaC): Skilled in automating deployments, managing cloud infrastructure, and writing IaC using Terraform, Ansible, and Kubernetes for scalable and efficient operations."
+          "⚡ Automation & IaC Magic: I turn manual setups into seamless automation using Terraform, Ansible, and Kubernetes — building cloud infrastructure that scales, heals, and just works."
         ),
         emoji(
-          "⚡ CI/CD & Monitoring: Experienced in designing robust CI/CD pipelines using Jenkins, GitHub Actions, and GitLab CI/CD, ensuring seamless software delivery with real-time monitoring through Prometheus, Grafana, and ELK Stack."
+          "⚡ CI/CD Flow Mastery: From Jenkins to GitHub Actions and GitLab CI/CD, I craft pipelines that ship code reliably. Add real-time monitoring with Prometheus, Grafana, and the ELK stack — and you're looking at visibility from code to production."
         ),
         emoji(
-          "⚡ Cloud & Security Expertise: Proficient in AWS, Azure implementing secure, high-availability architectures with strong knowledge of containerization (Docker, Kubernetes) and security best practices."
+          "⚡ Cloud-First, Security-Smart: I architect secure, high-availability environments in AWS and Azure. Containerization? Docker + Kubernetes are my daily tools for getting things running fast and safe."
         ),
       ],
       softwareSkills: [
@@ -117,17 +117,17 @@ export const skillsSection: SkillsSectionType = {
       ],
     },
     {
-      title: "Software Engineer",
+      title: "Code Craft",
       lottieAnimationFile: "/lottie/skills/fullstack.json", // Path of Lottie Animation JSON File
       skills: [
         emoji(
-          "⚡ Full-Stack Development & Scalable Architecture: Proficient in building responsive web applications using React, Next.js, Node.js, and TypeScript, with a strong focus on scalable, maintainable, and high-performance architectures."
+          "⚡  Full-Stack Builds That Scale: I design and build dynamic apps using React, Next.js, Node.js, and TypeScript — with performance and scalability baked in from the start."
         ),
         emoji(
-          "⚡ Efficient Code & Problem-Solving: Experienced in writing clean, efficient, and well-documented code, leveraging algorithms, data structures, and design patterns to optimize software performance and reliability."
+          "⚡ Code That Clicks: I write clean, efficient code backed by smart problem-solving — data structures, algorithms, and patterns that keep things fast and reliable."
         ),
         emoji(
-          "⚡ DevOps & Cloud Integration: Skilled in CI/CD, Docker, Kubernetes, and cloud services like AWS and GCP, ensuring seamless deployment, monitoring, and automation of software development workflows."
+          "⚡ DevOps x Cloud Synergy: Whether it’s CI/CD flows, container orchestration, or cloud deployments in AWS and GCP — I integrate and automate the full stack for smooth delivery and quick recovery."
         ),
       ],
       softwareSkills: [
@@ -212,33 +212,18 @@ export const educationInfo: EducationType[] = [
 
 export const experience: ExperienceType[] = [
   {
-    role: "DevOps & Full Stack Engineer",
-    company: "City Hotel & Spaces",
+    role: "DevOps Engineer",
+    company: "City Spaces & Bookings",
     companyLogo: "/img/icons/common/city.png",
     date: "Jan 2023 - Present",
     // desc: "I crafted backends for diverse web apps, APIs, and WebSockets in e-commerce, podcasts, and property management. Managed server upkeep, deployments on Linux, Heroku, and AWS S3. Implemented PyTest for automated unit and integration testing, slashing 4 hours of manual testing each sprint, fortifying a dependable and flawless code foundation.",
     descBullets: [
-      "Automated CI/CD pipelines using GitHub Actions & GitLab CI/CD,reducing deployment time by 60% and eliminating manual intervention.",
-      "Implemented Infrastructure as Code using Terraform, reducing deployment errors by 30% and improving cloud resource provisioning consistency across environments.",
-      "Led the migration of on-premise applications to AWS, ensuring minimal downtime and seamless integration with existing systems.",
-      "Implemented container orchestration with Kubernetes, improving deployment efficiency by 40% and ensuring seamless scaling and service discovery.",
+      "Built sleek, no-fuss CI/CD pipelines with GitHub Actions and Bash — slashed manual deployment work by 60%",
+      "Wrote infrastructure as code in Terraform and Ansible to make cloud provisioning smooth, consistent, and 30% more error-resistant.",
+      "Spearheaded system monitoring with Prometheus and Grafana — caught issues faster, used resources smarter.",
+      "Containerized apps with Docker and Kubernetes, boosting deployment speed and reliability, enabling faster feature releases",
       "Utilized Next Js, TypeScript, and Tailwind CSS to develop and maintain web applications.",
-      "Monitored and optimized cloud infrastructure, reducing cloud costs by 25%",
-    ],
-  },
-  {
-    role: "DevOps Engineer",
-    company: "Mettalloids Limited",
-    companyLogo: "/img/icons/common/metalloid.jpeg",
-    date: "Aug 2021 - June 2023",
-    // desc: "Crafted robust mobile application backends employing Django, Python, and REST APIs. Leveraged Django REST Framework, PostgreSQL, AWS, Firebase, Stripe, and WebSocket for efficient development. Collaborated across teams to surpass client expectations. Designed intuitive UIs, empowering clients to effortlessly manage their applications with a visually captivating interface.",
-    descBullets: [
-      "Designed and implemented a GitLab CI/CD pipeline for a Java Spring Boot app, reducing manual deployment time by 80% with Gradle, AWS S3, and Elastic Beanstalk.",
-      "Automated infrastructure provisioning using Terraform and Ansible, cutting deployment errors by 90% ",
-      "Containerized and deployed microservices with Docker and Kubernetes, improving scalability and ensuring seamless orchestration.",
-      "Implemented secure traffic routing with Traefik, enabling reverse proxy, automatic SSL/TLS, and HTTPS enforcement.",
-      "Integrated automated testing and monitoring using JUnit, PMD, Postman Newman, Prometheus, and Grafana, reducing deployment failures by 60% and system downtime by 25%.",
-      "Achieved single-command deployment (terraform apply -auto-approve), streamlining infrastructure setup, monitoring with Spring Boot Actuator, and automated rollback strategies.",
+      "Set up AWS Budgets & alerts, slashing unexpected costs by 25%.",
     ],
   },
   {
@@ -247,25 +232,42 @@ export const experience: ExperienceType[] = [
     companyLogo: "/img/icons/common/smartchain.jpeg",
     date: "Oct 2023 - Jan 2025",
     descBullets: [
-      "Developed and maintained web applications using React, TypeScript, Node.js, and Tailwind CSS, ensuring optimal performance and scalability.",
-      "Assisted in building and optimizing the admin dashboard load time by 15% through performance optimization.",
-      "Implemented Azure DevOps CI/CD pipelines, reducing deployment time by 40% and automating build, test, and deployment processes to enhance workflow efficiency.",
-      "Facilitated seamless integration between front-end interfaces and server-side applications and databases, collaborating closely with the backend development team to deliver cohesive and efficient web solutions.",
+      "Developed a React and Node.js dashboard, reducing admin task times with real-time metrics",
+      "Implemented Azure DevOps CI/CD pipelines, cutting deployment time by 40%.",
+      "Built scalable React and TypeScript web apps, boosting user engagement.",
+      "Collaborated on a zero-downtime Azure migration, earning a team excellence award.",
       "Contributed to improving the website's performance and user experience through code optimization and best practices.",
     ],
     // desc: "Crafting diverse web applications, I've elevated functionality and user engagement. Spearheaded Visual Portfolio, leveraging AI for captivating presentations from parsed text. Proficiently set up and optimized applications on Linux servers, guaranteeing smooth scalability and top-notch performance for seamless user experiences.",
   },
+  {
+    role: "DevOps Engineer",
+    company: "Mettalloids Limited",
+    companyLogo: "/img/icons/common/metalloid.jpeg",
+    date: "Aug 2021 - June 2023",
+    // desc: "Crafted robust mobile application backends employing Django, Python, and REST APIs. Leveraged Django REST Framework, PostgreSQL, AWS, Firebase, Stripe, and WebSocket for efficient development. Collaborated across teams to surpass client expectations. Designed intuitive UIs, empowering clients to effortlessly manage their applications with a visually captivating interface.",
+    descBullets: [
+      "Built a GitLab CI/CD pipeline for a Java Spring Boot app with Gradle, AWS S3, and Elastic Beanstalk, cutting manual deployment time by 80%.",
+      "Automated infrastructure with CloudFormation, cutting provisioning errors by 90% and keeping chaos at bay.",
+      "Containerized and deployed microservices with Docker and Kubernetes, improving scalability and ensuring seamless orchestration.",
+      "Implemented secure traffic routing with Traefik, enabling reverse proxy, automatic SSL/TLS, and HTTPS enforcement.",
+      "Teamed up for a zero-downtime migration to EKS using ECR, CodePipeline, and CodeCommit, pulling off a seamless switch with flair.",
+      "Configured various performance metrics using AWS Cloud watch & Cloud Trail for monitoring and metrics tracking",
+    ],
+  },
+
   {
     role: "DevOps Engineer (Intern)",
     company: "Terragon Group",
     companyLogo: "/img/icons/common/terragon.jpeg",
     date: "Jan 2021 - April 2021",
     descBullets: [
-      "Collaborated with a team of software engineers to identify and resolve challenges that hindered the building and deployment of new features, streamlining development processes through extensive research and implementation of best practices.",
-      "Designed, containerized, and deployed microservices to Kubernetes clusters for improved scalability and reliability.",
-      "With this role, I explored, test, share ideas, plus deep knowledge software development and delivery tools like; Versioning control system management tool (Git/GitHub), Cloud platform (Azure), and Containerisation (Docker)",
-      "Gained hands-on experience in software development and delivery tools, including Git/GitHub for version control, Azure for cloud platform management, and Docker for containerization.",
+      "Collaborated with DevOps and engineering teams to troubleshoot deployment issues, speeding up deployment cycles and reducing errors.",
+      "Assisted in maintaining Jenkins pipelines by troubleshooting failed builds and tweaking stages for smoother automation.",
+      "Sat in on team standups and sprint planning sessions, getting a real feel for DevOps in action.",
+      "Documented internal DevOps processes, making it easier for new team members to onboard.",
     ],
+
     // desc: "As a Django developer at Bleed AI, I integrated a computer vision AI model to process YouTube URLs on a website. I used Django Channels and Websockets to show real-time processing and implemented threading to run multiple instances of the AI model. I also used jQuery for UI rendering and deployed the website on a Heroku server.",
   },
 ];
@@ -285,7 +287,13 @@ export const projects: ProjectType[] = [
     medium: "https://medium.com/@williamsadebolah/9cf9901a221d",
   },
   {
-    name: "City Spaces",
+    name: "Reconxi",
+    desc: " ReconXi simplifies financial reconciliation for accountants, auditors, financial analysts, small businesses, and schools. Whether you’re managing transactions, handling business accounts, or reconciling school fees and payroll, experience a faster, more accurate way to reconcile your finances.",
+    image: "/img/icons/common/reconxi.png",
+    link: "https://reconxi.com",
+  },
+  {
+    name: "City Spaces and Bookings",
     desc: "Cityspaces is a platform for hosting apartments, offering a seamless experience for property owners and renters. It features easy listing management, secure transactions, and a user-friendly interface, ensuring a smooth rental process for all users.",
     image: "/img/icons/common/cityHotel.jpg",
     link: "https://cityspacesandbookings.com/",
@@ -311,17 +319,13 @@ export const projects: ProjectType[] = [
     // link: "https://github.com/heiswillz98/terra-config",
   },
 
-  {
-    name: "CI/CD Pipeline for Java Microservice Deployment",
-    desc: "This project automates the CI/CD pipeline for a Java-based microservice using GitLab CI/CD. It includes build, testing (unit, smoke, and API), deployment to AWS Elastic Beanstalk, and post-deployment verification, ensuring a seamless, reliable, and scalable release process.",
-    gitlab: "https://gitlab.com/heiswillz-projects/cars-api",
-    image: "/img/icons/common/gitlabci-cd.png",
-  },
   // {
-  //   name: "City Spaces",
-  //   desc: "Cityspaces is a platform for hosting apartments, offering a seamless experience for property owners and renters. It features easy listing management, secure transactions, and a user-friendly interface, ensuring a smooth rental process for all users.",
-  //   image: "/img/icons/common/cityHotel.jpg",
+  //   name: "CI/CD Pipeline for Java Microservice Deployment",
+  //   desc: "This project automates the CI/CD pipeline for a Java-based microservice using GitLab CI/CD. It includes build, testing (unit, smoke, and API), deployment to AWS Elastic Beanstalk, and post-deployment verification, ensuring a seamless, reliable, and scalable release process.",
+  //   gitlab: "https://gitlab.com/heiswillz-projects/cars-api",
+  //   image: "/img/icons/common/gitlabci-cd.png",
   // },
+
   // {
   //   name: "Hooligan Culture",
   //   desc: "A Ecommerce Platform, where shopping meets the future! With HandCash BitcoinSV integration, you can authenticate and purchase products with ease and confidence.",
